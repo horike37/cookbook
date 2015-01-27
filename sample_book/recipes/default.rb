@@ -6,6 +6,4 @@
 #
 # All rights reserved - Do Not Redistribute
 #
-file "/home/ec2-user/hello.txt" do
-  action :create
-end
+node[:unicorn][:timeout] = 600
